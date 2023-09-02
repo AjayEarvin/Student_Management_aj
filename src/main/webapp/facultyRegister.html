@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Faculty register</title>
+  <link rel="stylesheet" href="faculty.css">
+</head>
+<body>
+  <div class="wrapper">
+    <form action="facultReg" method="post">
+      <h2>FACULTY REGISTRATION</h2>
+        <div class="input-field">
+        <input type="text" name="facultyid" required>
+        <label>Enter FACULTY ID</label>
+      </div>
+      <div class="input-field">
+        <input type="text" name="name" required>
+        <label>Enter FACULTY NAME</label>
+      </div>
+      <div class="input-field">
+        <input type="text" name="subject" required>
+        <label>Enter your Major Subject</label>
+      </div>
+      <div class="input-field">
+        <input type="text" name="email" required>
+        <label>Enter g-mail id</label>
+      </div>
+      <div class="input-field">
+        <input type="number" name="phonenumber" required>
+        <label>Enter FACULTY Phone-number</label>
+      </div>
+      <div class="input-field">
+        <input type="password" name="pwd" required>
+        <label>Enter your password</label>
+      </div>
+      <div class="forget">
+        <a href="#">Forgot password?</a>
+        <button type="button" onclick="window.location.href='facultylogin.html'">Back</button>
+      </div>
+      <button type="submit">Log In</button>
+    </form>
+  </div> 
+</body>
+</html>

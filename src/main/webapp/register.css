@@ -1,0 +1,66 @@
+@charset "UTF-8";
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: url("img/car-1168158_1920.jpg");
+	background-size: cover;
+}
+.main{
+	width: 400px;
+	margin: 100px auto 0px auto;
+	
+}
+h2{
+	text-align: center;
+}
+.register{
+	background-color: rgba(0, 0, 0, 0.5);
+	width: 120%;
+	font-size: 18px;
+	border-radius: 10px;
+	border: 2px solid rgba(255,255,255,0.3);
+	box-shadow: 2px 2px 15px;
+	color: #fff;
+}
+table,th,td{
+	margin: 55px;
+}
+label{
+	width: 35px;
+}
+.box{
+	width: 320px;
+	height: 25px;
+}
+#submit{
+	width: 130px;
+	padding: 7px;
+	font-size: 16px;
+	font-weight: 600;
+	border: none;
+	border-radius:5px;
+	background-color: rgba(250,100,0,0.8);
+	color: #fff;
+	cursor: pointer;
+	border: 1px solid rgba(255, 255, 255, 0.3);
+	box-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+}
+a{
+	width: 130px;
+	padding:  7px;
+	font-size: 16px;
+	font-weight: 600;
+	border: none;
+	border-radius:5px;
+	background-color: rgba(250,100,0,0.8);
+	color: #fff;
+	color: #fff;
+	cursor: pointer;
+	border: 1px solid rgba(255, 255, 255, 0.3);
+	box-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+	text-decoration: none;
+
+	
+}
